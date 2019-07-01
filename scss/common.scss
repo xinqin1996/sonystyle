@@ -1,0 +1,48 @@
+/*sonystyle 公共样式 common css*/
+/*  */
+/* 背景色f1f4f9 */
+.bg-Grey{ background-color:#f1f4f9 }
+.bg-white{ background-color:#fff;}
+
+.font-33{  color:#333;  }
+.font-66{  color:#666;  }
+.font-cc{  color:#ccc;  }
+.font-ff{  color:#fff;  }
+
+/* cf 高度坍塌*/
+.cf:after {
+  content: '\20';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+}
+/*左右浮动*/
+.float-l{
+  float:left;
+}
+.float_r{
+  float:right;
+}
+/*外边距*/
+.mx-5{
+  margin-left:5px;
+  margin-right:5px;
+}
+.mb-10{
+  margin-bottom:10px;
+}
+
+.pt-2{
+  padding-top:2px;
+}
+/*溢出隐藏*/
+.MBlock{
+  overflow:hidden;
+}
+
+img{
+  vertical-align: bottom !important;
+}

@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/*sonystyle  index css*/
+/*  */
+/* 1 新品上市*/
+/* 最外框架 */
+#NewProduct {
+  width: 100%;
+  background: #Fff;
+  margin-bottom: 40px; }
+
+/* 内容width */
+.NewProduct_main {
+  width: 1210px;
+  margin: 0 auto; }
+
+/* 新品上市整体框架 */
+.NewProduct_main h2 {
+  font-size: 24px;
+  padding: 20px 0; }
+
+.NewProduct_main ul li {
+  width: 295px;
+  height: 470px;
+  margin-right: 10px;
+  float: left; }
+  .NewProduct_main ul li:last-child {
+    margin-right: 0px; }
+  .NewProduct_main ul li .NewProBlock {
+    position: relative; }
+  .NewProduct_main ul li .texC {
+    position: absolute;
+    top: 30px;
+    left: 10px; }
+    .NewProduct_main ul li .texC h3 {
+      color: #333;
+      text-align: left;
+      font-size: 24px;
+      padding: 5px 0; }
+    .NewProduct_main ul li .texC p.vice {
+      color: #666;
+      font-size: 16px;
+      margin: 5px 0; }
+    .NewProduct_main ul li .texC p.p_rice {
+      color: #0a83d7 !important;
+      font-weight: bold;
+      font-size: 14px; }
+
+/*价格的单独设置*/
+.p_rice {
+  color: #0a83d7 !important;
+  font-weight: bold;
+  font-size: 14px; }
+
+/*数码影像主体结构-*/
+.MainBlock .MainProductBlock {
+  width: 1230px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0 auto; }
+
+.MainBlockTop {
+  text-align: center;
+  padding-top: 30px; }
+  .MainBlockTop h2.tit {
+    font-size: 24px;
+    display: inline-block;
+    padding-left: 42px;
+    background-repeat: no-repeat;
+    background-position: 0% 50%; }
+  .MainBlockTop ul {
+    margin: 40px 0;
+    display: inline-block; }
+    .MainBlockTop ul li {
+      float: left;
+      font-size: 12px;
+      padding: 0 20px;
+      border-right: 1px solid #6d6d6d; }
+      .MainBlockTop ul li:last-child {
+        border-right: 0; }
+      .MainBlockTop ul li a {
+        color: #6b6b6b; }
+        .MainBlockTop ul li a h3 {
+          display: inline-block;
+          min-width: 60px; }
+
+.MainBlock .MBlock_h {
+  width: 610px; }
+  .MainBlock .MBlock_h .block_item .MBlock {
+    overflow: hidden;
+    position: relative; }
+    .MainBlock .MBlock_h .block_item .MBlock .price_zone {
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      text-align: left;
+      z-index: 10;
+      /*这是一个空元素*/ }
+      .MainBlock .MBlock_h .block_item .MBlock .price_zone .title {
+        font-size: 14px;
+        line-height: 14px; }
+      .MainBlock .MBlock_h .block_item .MBlock .price_zone h3 {
+        font-size: 24px;
+        line-height: 24px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        text-align: left; }
+      .MainBlock .MBlock_h .block_item .MBlock .price_zone i {
+        padding: 5px 0 0px;
+        width: 192px;
+        height: 5px; }
+      .MainBlock .MBlock_h .block_item .MBlock .price_zone .icon {
+        width: 192px;
+        height: 0px; }
+      .MainBlock .MBlock_h .block_item .MBlock .price_zone .tab_title {
+        height: 20px;
+        color: #fff;
+        padding: 5px 10px 5px 10px;
+        line-height: 20px;
+        border-radius: 5px;
+        /*width: max-content;*/
+        margin-top: 5px;
+        float: left; }
+    .MainBlock .MBlock_h .block_item .MBlock .hires_icon1 {
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+      z-index: 9; }
+    .MainBlock .MBlock_h .block_item .MBlock .hires_icon2 {
+      position: absolute;
+      bottom: 10px;
+      left: 70px;
+      z-index: 9; }
+
+/*<div class="Block5 MBlock mx-5 mb-10 bg-white">
+对应的5个框架的大小*/
+.MainBlock .MBlock_h .Block1 {
+  width: 600px;
+  height: 295px; }
+
+.MainBlock .MBlock_h .Block2 {
+  width: 295px;
+  height: 398px; }
+
+.MainBlock .MBlock_h .Block3 {
+  width: 295px;
+  height: 194px; }
+
+.MainBlock .MBlock_h .Block4 {
+  width: 295px;
+  height: 295px; }
+
+.MainBlock .MBlock_h .Block5 {
+  width: 600px;
+  height: 703px; }
+
+/*图片div的位置属性*/
+.bigblock:hover .product_img0,
+.bigblock:hover .product_img1,
+.bigblock:hover .product_img2,
+.bigblock:hover .product_img3,
+.bigblock:hover .product_img4,
+.bigblock:hover .product_img5 {
+  transform: scale(1.07);
+  -ms-transform: scale(1.07); }
+
+.product_line {
+  position: absolute;
+  bottom: 20px;
+  left: 0; }
+
+.product_img1 {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  transition: transform 1s ease 0s; }
+
+.product_img2 {
+  position: absolute;
+  left: 19px;
+  bottom: 20px;
+  transition: transform 1s ease 0s; }
+
+.product_img3 {
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+  transition: transform 1s ease 0s; }
+
+.product_img4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 1s ease 0s; }
+
+/* 底部导航栏的信息 */
+.BlockBottom {
+  margin: 5px 0 0 4px;
+  padding: 0 0 10px; }
+  .BlockBottom .title {
+    width: 70px;
+    height: 18px;
+    line-height: 18px;
+    color: #2591DA;
+    font-size: 14px;
+    font-weight: bolder;
+    float: left; }
+  .BlockBottom ul {
+    float: left;
+    /* margin-top:1px;*/
+    padding: 1px 0 0 10px;
+    display: inline-block; }
+    .BlockBottom ul li {
+      float: left;
+      font-size: 12px;
+      padding: 0 10px;
+      border-right: 1px solid; }
+      .BlockBottom ul li:last-child {
+        border-right: 0; }
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
