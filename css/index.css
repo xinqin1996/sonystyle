@@ -217,7 +217,60 @@
       .BlockBottom ul li:last-child {
         border-right: 0; }
 
-/*  */
+/*底部返回箭头*/
+.BlockBottom2 a {
+  padding: 10px 20px 10px 0; }
+
+/* <!-- BottonMain--> */
+.BottomMain .BottomBlock {
+  width: 1210px;
+  margin: auto; }
+
+.BottomMain .BottomBlock1 .BlockMain {
+  position: relative; }
+
+/*  三张图片*/
+.BottomMain .BottomBlock1 {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+  .BottomMain .BottomBlock1 li {
+    margin-right: 11px; }
+    .BottomMain .BottomBlock1 li:last-child {
+      margin-right: 0px; }
+    .BottomMain .BottomBlock1 li .t-txt {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      padding: 15px 30px;
+      color: #fff;
+      font-size: 14px; }
+    .BottomMain .BottomBlock1 li .b-txt {
+      font-size: 16px;
+      padding: 10px 20px 0;
+      font-weight: bolder; }
+
+/* 五张图片 */
+.BottomMain .BottomBlock2 {
+  margin-bottom: 25px; }
+  .BottomMain .BottomBlock2 li {
+    text-align: center;
+    padding: 22px 64px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; }
+    .BottomMain .BottomBlock2 li a {
+      position: relative; }
+    .BottomMain .BottomBlock2 li:last-child {
+      border-right: 0; }
+
+.on {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+.close:hover .on {
+  display: inline; }
+
 /*  */
 /*  */
 /*  */

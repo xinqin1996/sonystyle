@@ -230,9 +230,70 @@
     }
   }
 }
+/*底部返回箭头*/
+.BlockBottom2{
+  a{
+    padding:10px 20px 10px 0;
+    img{}
+  }
+}
 
 
-/*  */
+/* <!-- BottonMain--> */
+.BottomMain{
+  .BottomBlock{
+    width:1210px;
+    margin:auto;
+  }
+}
+
+.BottomMain{
+  .BottomBlock1{
+    .BlockMain{
+      position:relative;
+    }
+  }
+}
+/*  三张图片*/
+.BottomMain{
+  .BottomBlock1{
+    margin-top:25px;margin-bottom:25px;
+    li{
+      margin-right:11px;
+      &:last-child{margin-right:0px;}
+      .t-txt{
+        position:absolute;top:0px;left:0px;
+        padding:15px 30px;color:#fff;font-size:14px;
+      }
+      img{}
+      .b-txt{
+        font-size:16px;padding:10px 20px 0;
+        font-weight:bolder;
+      }
+    }
+  }
+}
+
+/* 五张图片 */
+.BottomMain{
+  .BottomBlock2{
+    margin-bottom:25px;
+    li{
+      a{position:relative;}
+      text-align:center;
+      padding:22px 64px;
+      border-top:1px solid #ccc;
+      border-right:1px solid #ccc;
+      border-bottom:1px solid #ccc;
+      &:last-child{border-right:0;}
+    }
+  }
+}
+
+.on{position:absolute;top:0px;left:0px;}
+.close:hover .on{
+  display:inline;
+}
 /*  */
 /*  */
 /*  */

@@ -8,6 +8,15 @@
 .bg-white {
   background-color: #fff; }
 
+.bg-red {
+  background-color: #dc2828; }
+
+.bg-blue {
+  background-color: #0a83d7; }
+
+.bg-orange {
+  background-color: #ff6131; }
+
 .font-33 {
   color: #333; }
 
@@ -34,7 +43,7 @@
 .float-l {
   float: left; }
 
-.float_r {
+.float-r {
   float: right; }
 
 /*外边距*/
@@ -54,3 +63,6 @@
 
 img {
   vertical-align: bottom !important; }
+
+.d-none {
+  display: none; }
