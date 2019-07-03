@@ -6,6 +6,7 @@
 .bg-red{background-color:#dc2828}
 .bg-blue{background-color:#0a83d7}
 .bg-orange{background-color:#ff6131}
+.bg-f5{background-color:#f5f5f5;}
 
 .font-33{  color:#333;  }
 .font-66{  color:#666;  }
@@ -34,8 +35,18 @@
   margin-left:5px;
   margin-right:5px;
 }
+
+.mx-2{
+  margin-left:2px;
+  margin-right:2px;
+}
+
 .mb-10{
   margin-bottom:10px;
+}
+
+.ml-20{
+  margin-left:20px;
 }
 
 .pt-2{

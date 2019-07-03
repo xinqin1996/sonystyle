@@ -254,7 +254,7 @@
     }
   }
 }
-/*  三张图片*/
+/* BottonMain- 三张图片*/
 .BottomMain{
   .BottomBlock1{
     margin-top:25px;margin-bottom:25px;
@@ -274,14 +274,15 @@
   }
 }
 
-/* 五张图片 */
+/* BottonMain- 五张图片 */
 .BottomMain{
   .BottomBlock2{
     margin-bottom:25px;
     li{
-      a{position:relative;}
+      width:242px;
+      a{position:relative;display:inline-block}
       text-align:center;
-      padding:22px 64px;
+      padding:22px;
       border-top:1px solid #ccc;
       border-right:1px solid #ccc;
       border-bottom:1px solid #ccc;
@@ -289,11 +290,43 @@
     }
   }
 }
-
-.on{position:absolute;top:0px;left:0px;}
-.close:hover .on{
-  display:inline;
+/* 用switch 和 on 来控制图片的显示 */
+.switch:hover .on{
+  display:inline !important;
+  position:absolute;top:0px;left:0px;
+  z-index:10;
 }
+
+/* BottonMain-  .BlockNew 新闻通知 */
+/* BottonMain- 关于我们 */
+.BottomMain{
+  .BottomBlock3{
+    margin-bottom:30px;
+    .BlockNew{
+      width:727px;
+      border-right:1px solid #ccc;
+      h4{
+        font-size:22px;text-align:left;margin:10px 0;
+      }
+      ul{  }
+      li{
+        margin-top:10px;
+        span{color:#ccc;}
+        a{}
+      }
+    }
+    .BlockUs{
+      h4{font-size:22px;margin:10px 0;text-align:left;}
+      li{float:left;margin-right:20px;text-align:center;}
+      img{}
+      h5{padding:5px 0;}
+      a{color:#3f80b8}
+
+    }
+  }
+}
+
+
 /*  */
 /*  */
 /*  */

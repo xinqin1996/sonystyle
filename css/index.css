@@ -229,7 +229,7 @@
 .BottomMain .BottomBlock1 .BlockMain {
   position: relative; }
 
-/*  三张图片*/
+/* BottonMain- 三张图片*/
 .BottomMain .BottomBlock1 {
   margin-top: 25px;
   margin-bottom: 25px; }
@@ -249,27 +249,57 @@
       padding: 10px 20px 0;
       font-weight: bolder; }
 
-/* 五张图片 */
+/* BottonMain- 五张图片 */
 .BottomMain .BottomBlock2 {
   margin-bottom: 25px; }
   .BottomMain .BottomBlock2 li {
+    width: 242px;
     text-align: center;
-    padding: 22px 64px;
+    padding: 22px;
     border-top: 1px solid #ccc;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc; }
     .BottomMain .BottomBlock2 li a {
-      position: relative; }
+      position: relative;
+      display: inline-block; }
     .BottomMain .BottomBlock2 li:last-child {
       border-right: 0; }
 
-.on {
+/* 用switch 和 on 来控制图片的显示 */
+.switch:hover .on {
+  display: inline !important;
   position: absolute;
   top: 0px;
-  left: 0px; }
+  left: 0px;
+  z-index: 10; }
 
-.close:hover .on {
-  display: inline; }
+/* BottonMain-  .BlockNew 新闻通知 */
+/* BottonMain- 关于我们 */
+.BottomMain .BottomBlock3 {
+  margin-bottom: 30px; }
+  .BottomMain .BottomBlock3 .BlockNew {
+    width: 727px;
+    border-right: 1px solid #ccc; }
+    .BottomMain .BottomBlock3 .BlockNew h4 {
+      font-size: 22px;
+      text-align: left;
+      margin: 10px 0; }
+    .BottomMain .BottomBlock3 .BlockNew li {
+      margin-top: 10px; }
+      .BottomMain .BottomBlock3 .BlockNew li span {
+        color: #ccc; }
+  .BottomMain .BottomBlock3 .BlockUs h4 {
+    font-size: 22px;
+    margin: 10px 0;
+    text-align: left; }
+  .BottomMain .BottomBlock3 .BlockUs li {
+    float: left;
+    margin-right: 20px;
+    text-align: center; }
+  .BottomMain .BottomBlock3 .BlockUs h5 {
+    padding: 5px 0; }
+  .BottomMain .BottomBlock3 .BlockUs a {
+    color: #3f80b8; }
 
 /*  */
 /*  */

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* 购物车头部 */
+.TopMain .TopBlock {
+  width: 1210px;
+  margin: 0 auto;
+  padding-bottom: 50px; }
+
+.TopMain .top_area1 {
+  padding-top: 59px; }
+
+.TopMain .top_area2 {
+  padding: 46px 0 20px 0;
+  border-bottom: 3px solid #cccccc; }
+  .TopMain .top_area2 p {
+    padding-right: 5px;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 18px;
+    text-align: right; }
+
+/* 在购物车为空的时候 */
+.TopMain .shop_no {
+  padding: 80px 0 50px;
+  text-align: center; }
+  .TopMain .shop_no p {
+    padding: 20px  0 22px;
+    font-size: 16px;
+    line-height: 21px; }
+  .TopMain .shop_no a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #0a83d7;
+    text-decoration: underline; }
+
+/* 购物车列表 */
+.shop_list .shop_title {
+  padding: 25px 0 30px; }
+  .shop_list .shop_title p {
+    font-size: 16px;
+    color: #262626;
+    float: left; }
+    .shop_list .shop_title p:nth-child(1) {
+      width: 562px; }
+    .shop_list .shop_title p:nth-child(2) {
+      width: 192px; }
+    .shop_list .shop_title p:nth-child(3) {
+      width: 128px; }
+    .shop_list .shop_title p:nth-child(4) {
+      width: 230px; }
+    .shop_list .shop_title p:nth-child(5) {
+      width: 32px;
+      color: #a6a6a6; }
+
+/* .shop_item大框架设置 */
+.shop_list .shop_group .shop_item {
+  padding: 45px 35px;
+  margin-bottom: 16px;
+  background-color: #fff; }
+
+/* .shop_item详细设置 */
+.shop_list .shop_item .shop_goods {
+  padding-top: 22px;
+  border-top: 1px solid #b4b2b2; }
+  .shop_list .shop_item .shop_goods div {
+    float: left; }
+  .shop_list .shop_item .shop_goods .goods_img {
+    border: 1px solid #e5e5e5; }
+    .shop_list .shop_item .shop_goods .goods_img img {
+      width: 114px;
+      height: 114px; }
+  .shop_list .shop_item .shop_goods .goods_name {
+    width: 392px;
+    margin-left: 14px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333; }
+  .shop_list .shop_item .shop_goods .goods_price {
+    width: 202px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #706f6f; }
+  .shop_list .shop_item .shop_goods .goods_num {
+    width: 128px;
+    margin: -5px 10px 0; }
+  .shop_list .shop_item .shop_goods .goods_total {
+    width: 240px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #0a83d7;
+    padding-right: 64px;
+    text-align: right; }
+
+/* good_num 设置 */
+.shop_list .shop_goods .goods_num {
+  width: 128px;
+  margin: -5px 10px 0; }
+
+/*  good_opera 设置*/
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
