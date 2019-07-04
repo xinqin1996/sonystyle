@@ -40,23 +40,124 @@
                     <p>小计</p>
                     <p>操作</p>
                 </div>
+                <!--商品 item 的 group-->
                 <ul class="shop_group">
                     <li class="shop_item">
+                        <!--商品主体-->
                         <div class="shop_goods cf">
                             <div class="goods_img"><img src="../public/images/goods1.jpg" alt=""/></div>
                             <div class="goods_name">索尼 Xperia 1 双卡版 霞紫</div>
                             <div class="goods_price">RMB 6,199.00</div>
-                            <div class="goods_num">
+                            <div class="goods_num cf">
                                 <a href="#">-</a>
                                 <input type="text" value="1"/>
                                 <a href="#">+</a>
                             </div>
                             <div class="goods_total">RMB 6,199.00</div>
-                            <div class="goods_opera">移入心愿单</div>
+                            <div class="goods_opera">
+                                <a href="#" class="to_wish">移入心愿单</a><br>
+                                <a href="#" class="to_del"><img src="../public/images/lajixiang.png" alt="">删除</a>
+                            </div>
                         </div>
-                        <div class="shop_gift"></div>
+                        <!--礼物部分 有些物品是没有礼物的-->
+                        <div class="shop_gift cf">
+                            <img src="../public/images/gift.jpg" alt="" class="float-l">
+                            <div class="float-l gf_main">
+                                <p class="gf_icon">赠品</p>
+                                <p class="gf_name">钢化玻璃保护膜</p>
+                                <p class="gf_num">×1</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="shop_item">
+                        <!--商品主体-->
+                        <div class="shop_goods cf">
+                            <div class="goods_img"><img src="../public/images/goods2.jpg" alt=""/></div>
+                            <div class="goods_name">KD-85Z9G 85英寸 8K HDR 安卓智能液晶电视 黑色</div>
+                            <div class="goods_price">RMB 119,999.00</div>
+                            <div class="goods_num cf">
+                                <a href="#">-</a>
+                                <input type="text" value="1"/>
+                                <a href="#">+</a>
+                            </div>
+                            <div class="goods_total">RMB 119,999.00</div>
+                            <div class="goods_opera">
+                                <a href="#" class="to_wish">移入心愿单</a><br>
+                                <a href="#" class="to_del"><img src="../public/images/lajixiang.png" alt="">删除</a>
+                            </div>
+                        </div>
+                        <!--礼物部分 有些物品是没有礼物的-->
+                    </li>
+                    <li class="shop_item">
+                        <!--商品主体-->
+                        <div class="shop_goods cf">
+                            <div class="goods_img"><img src="../public/images/goods3.jpg" alt=""/></div>
+                            <div class="goods_name">索尼 Xperia 10 Plus 双卡版 海军蓝</div>
+                            <div class="goods_price">RMB 2,399.00</div>
+                            <div class="goods_num cf">
+                                <a href="#">-</a>
+                                <input type="text" value="2"/>
+                                <a href="#">+</a>
+                            </div>
+                            <div class="goods_total">RMB 4,798.00</div>
+                            <div class="goods_opera">
+                                <a href="#" class="to_wish">移入心愿单</a><br>
+                                <a href="#" class="to_del"><img src="../public/images/lajixiang.png" alt="">删除</a>
+                            </div>
+                        </div>
+                        <!--礼物部分 有些物品是没有礼物的-->
+                    </li>
+                    <li class="shop_item">
+                        <!--商品主体-->
+                        <div class="shop_goods cf">
+                            <div class="goods_img"><img src="../public/images/goods4.jpg" alt=""/></div>
+                            <div class="goods_name">ILCE-9 微单™数码相机 速度旗舰 黑色（全画幅堆栈式影像传感器 4D对焦 5轴防抖 4K视频录制 A9/α9）</div>
+                            <div class="goods_price">RMB 24,999.00</div>
+                            <div class="goods_num cf">
+                                <a href="#">-</a>
+                                <input type="text" value="1"/>
+                                <a href="#">+</a>
+                            </div>
+                            <div class="goods_total">RMB 24,999.00</div>
+                            <div class="goods_opera">
+                                <a href="#" class="to_wish">移入心愿单</a><br>
+                                <a href="#" class="to_del"><img src="../public/images/lajixiang.png" alt="">删除</a>
+                            </div>
+                        </div>
+                        <!--礼物部分 有些物品是没有礼物的-->
+                        <div class="shop_gift cf">
+                            <img src="../public/images/gift.jpg" alt="" class="float-l">
+                            <div class="float-l gf_main">
+                                <p class="gf_icon">赠品</p>
+                                <p class="gf_name">LBI-CNBLUEBAG</p>
+                                <p class="gf_num">×1</p>
+                            </div>
+                        </div>
                     </li>
                 </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 底部部分，用来设置上边框-->
+    <div class="Bottom_flex">
+        <!-- BottomMain 设置了fix定位，有函数-高度控制 -->
+        <div class="BottomMain">
+            <!-- 礼物部分-->
+            <div class="bottom_gift">
+                <!-- 单个礼物的属性设置-->
+                <div class="gift_intro">
+                    <span>[促销]</span>
+                    购买Xperia 1单机可获手机屏幕钢化膜*1件
+                </div>
+                <div class="gift_intro">
+                    <span>[促销]</span>
+                    2019/07/01-08/31购买ILCE-9，可获蓝色双肩包1只
+                </div>
+            </div>
+            <!-- 总价部分 全部右浮动-->
+            <div class="bottom_total cf">
+                <a href="#" class="float-r total_settle">去结算(4)</a>
+                <p class="float-r total_price">总价：RMB 153,596.00</p>
             </div>
         </div>
     </div>

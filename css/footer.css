@@ -1,0 +1,88 @@
+.FooterMain .footer-block1 {
+  margin: 40px auto 20px;
+  width: 1210px;
+  height: 200px; }
+
+.focus_us {
+  float: left; }
+  .focus_us .us_title {
+    margin-bottom: 19px;
+    font-size: 22px;
+    line-height: 33px;
+    color: #333;
+    text-align: left;
+    font-weight: normal; }
+  .focus_us li {
+    margin-right: 30px;
+    float: left;
+    text-align: center; }
+    .focus_us li img {
+      width: 85px;
+      height: 85px;
+      margin-bottom: 3px; }
+    .focus_us li p {
+      font-size: 12px;
+      line-height: 20px;
+      color: #030303;
+      text-align: center; }
+    .focus_us li a {
+      font-size: 12px;
+      line-height: 20px;
+      color: #4c9fe1; }
+
+.sony_detail {
+  margin-top: 13px;
+  border-left: 1px solid #c6c6c6;
+  width: 790px;
+  height: 148px;
+  float: right; }
+  .sony_detail p {
+    padding-top: 20px;
+    padding-left: 9px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8a8d91; }
+
+.FooterMain .footer-block2 {
+  color: #6a6a6a;
+  padding: 30px 0 50px 0;
+  background-color: #000; }
+  .FooterMain .footer-block2 .block-w {
+    width: 1210px;
+    margin: 0 auto; }
+
+.footer-block2 .block_top {
+  width: 100%;
+  height: 256px;
+  border-bottom: 1px solid #969696; }
+
+.footer-block2 .block_center {
+  padding: 15px 0 15px 0;
+  color: #fff; }
+  .footer-block2 .block_center a {
+    color: #fff;
+    margin: 0 42px 0 0;
+    line-height: 18px; }
+  .footer-block2 .block_center span {
+    line-height: 18px;
+    float: right; }
+
+.footer-block2 .block_bottom {
+  padding-bottom: 15px; }
+  .footer-block2 .block_bottom .gongan {
+    padding-left: 30px;
+    position: relative; }
+    .footer-block2 .block_bottom .gongan img {
+      position: absolute;
+      left: 0;
+      top: -6px; }
+  .footer-block2 .block_bottom span {
+    line-height: 18px; }
+    .footer-block2 .block_bottom span a {
+      color: #6a6a6a; }
+    .footer-block2 .block_bottom span:not(:last-child) {
+      margin-right: 25px; }
+    .footer-block2 .block_bottom span:last-child {
+      float: right; }
+      .footer-block2 .block_bottom span:last-child a {
+        color: #1c2bc7; }

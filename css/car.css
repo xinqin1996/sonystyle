@@ -44,9 +44,11 @@
     .shop_list .shop_title p:nth-child(2) {
       width: 192px; }
     .shop_list .shop_title p:nth-child(3) {
-      width: 128px; }
+      width: 128px;
+      text-align: center; }
     .shop_list .shop_title p:nth-child(4) {
-      width: 230px; }
+      width: 230px;
+      text-align: center; }
     .shop_list .shop_title p:nth-child(5) {
       width: 32px;
       color: #a6a6a6; }
@@ -71,6 +73,7 @@
   .shop_list .shop_item .shop_goods .goods_name {
     width: 392px;
     margin-left: 14px;
+    padding-right: 52px;
     font-size: 16px;
     line-height: 21px;
     color: #333; }
@@ -79,9 +82,6 @@
     font-size: 16px;
     line-height: 18px;
     color: #706f6f; }
-  .shop_list .shop_item .shop_goods .goods_num {
-    width: 128px;
-    margin: -5px 10px 0; }
   .shop_list .shop_item .shop_goods .goods_total {
     width: 240px;
     font-size: 16px;
@@ -92,12 +92,103 @@
 
 /* good_num 设置 */
 .shop_list .shop_goods .goods_num {
-  width: 128px;
-  margin: -5px 10px 0; }
+  margin: -5px 0 0; }
+  .shop_list .shop_goods .goods_num a {
+    font-size: 28px;
+    text-align: center;
+    line-height: 29px;
+    color: #8d8989;
+    background-color: #ededed;
+    display: block;
+    width: 33px;
+    height: 34px;
+    float: left;
+    border: 1px solid #ccc; }
+    .shop_list .shop_goods .goods_num a:first-child {
+      border-right: 0;
+      font-size: 40px; }
+    .shop_list .shop_goods .goods_num a:last-child {
+      border-left: 0; }
+  .shop_list .shop_goods .goods_num input {
+    width: 40px;
+    height: 32px;
+    float: left;
+    padding: 0px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #8d8989;
+    text-align: center;
+    outline: 0; }
 
 /*  good_opera 设置*/
-/*  */
-/*  */
+.shop_list .shop_goods .goods_opera a {
+  font-size: 12px;
+  color: #a6a6a6;
+  line-height: 16px; }
+  .shop_list .shop_goods .goods_opera a:hover {
+    color: #00549f; }
+
+.shop_list .shop_goods .goods_opera .to_del {
+  margin-top: 24px;
+  display: inline-block; }
+  .shop_list .shop_goods .goods_opera .to_del img {
+    width: 16px; }
+
+/* 礼物的设置 */
+.shop_list .shop_item .shop_gift {
+  margin-top: 22px;
+  padding: 15px 0 15px 20px;
+  background-color: #f5f5f5; }
+  .shop_list .shop_item .shop_gift img {
+    border: 1px solid #e5e5e5;
+    width: 72px;
+    height: 72px; }
+  .shop_list .shop_item .shop_gift .gf_main {
+    padding-left: 10px; }
+  .shop_list .shop_item .shop_gift .gf_icon {
+    border: 1px solid #b50000;
+    color: #b50000;
+    width: 34px;
+    text-align: center; }
+  .shop_list .shop_item .shop_gift p:not(:first-child) {
+    color: #999;
+    padding-top: 6px; }
+
+/**/
+.Bottom_flex {
+  border-top: 1px solid #ccc; }
+
+/* BottomMain bottom_gift*/
+.BottomMain {
+  padding: 30px 0 25px 0;
+  width: 1140px;
+  margin: auto; }
+  .BottomMain .bottom_gift .gift_intro {
+    padding-bottom: 10px;
+    color: #666; }
+    .BottomMain .bottom_gift .gift_intro span {
+      color: #0a83d7;
+      margin-right: 6px; }
+  .BottomMain .bottom_total {
+    margin-top: 22px;
+    padding-top: 30px;
+    border-top: 1px dashed #999; }
+    .BottomMain .bottom_total .total_price {
+      font-size: 20px;
+      color: #0a83d7;
+      font-weight: normal; }
+    .BottomMain .bottom_total .total_settle {
+      width: 210px;
+      height: 50px;
+      margin-left: 25px;
+      color: #fff;
+      background-color: #0a83d7;
+      text-align: center;
+      line-height: 50px;
+      font-size: 20px; }
+      .BottomMain .bottom_total .total_settle:hover {
+        color: #00549f; }
+
 /*  */
 /*  */
 /*  */
