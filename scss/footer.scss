@@ -59,3 +59,34 @@
     }
   }
 }
+
+.footer-block2{
+  .block_top{
+    .footer_title{
+      .a1,p{font-size:14px;line-height:19px;color:#fff;}
+      p{margin:40px 0 20px;font-weight: lighter;}
+      .a2,.a3{line-height:16px;margin-bottom:15px;color:#6a6a6a;display:block;
+      background:url(../public/images/footer-icon_03.png) no-repeat;background-position:100% 0px;
+      &:hover{background:url(../public/images/footer-icon-on03_03.png) no-repeat;background-position:100% 0px;}  
+      }
+      .a2{width:92px;}
+      .a3{width:104px;}
+      a:hover{color:#009ffb}
+    }
+
+
+  }
+}
+
+.footer-block2{
+  .block_top{
+    .footer_focusUs{
+      margin:0 220px 0px 125px;
+      li{
+        &:first-child{font-size:14px;line-height:19px;color:#fff;margin-bottom:20px;font-weight:lighter;}
+      }
+      .ch_btn{}
+      .icon_point{}
+    }
+  }
+}
