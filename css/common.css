@@ -32,6 +32,10 @@
 .font-ff {
   color: #fff; }
 
+.width_1210 {
+  width: 1210px;
+  margin: 0 auto; }
+
 /* cf 高度坍塌*/
 .cf:after {
   content: '\20';
@@ -70,9 +74,6 @@
 /*溢出隐藏*/
 .MBlock {
   overflow: hidden; }
-
-img {
-  vertical-align: bottom !important; }
 
 .d-none {
   display: none; }

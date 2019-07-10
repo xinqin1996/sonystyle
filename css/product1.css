@@ -1,0 +1,128 @@
+.bread_banner {
+  padding: 15px 0; }
+  .bread_banner .left {
+    float: left;
+    font-size: 14px;
+    color: #a19ea7;
+    line-height: 33px; }
+    .bread_banner .left a {
+      color: #a19ea7; }
+  .bread_banner .right {
+    float: right; }
+
+#main .top_main {
+  padding: 30px 0; }
+  #main .top_main .main_left .m_img {
+    width: 539px;
+    height: 539px;
+    border: 1px solid #ddd; }
+    #main .top_main .main_left .m_img img {
+      width: 537px;
+      height: 537px; }
+  #main .top_main .main_left .s_img {
+    padding: 25px 0;
+    width: 537px;
+    height: 116px;
+    background-color: #aaa; }
+  #main .top_main .main_right {
+    width: 653px; }
+    #main .top_main .main_right .pro_title {
+      margin: 8px 0 8px;
+      color: #262626;
+      font-size: 22px;
+      line-height: 29px; }
+    #main .top_main .main_right .pro_detail {
+      margin: 0 0 12px;
+      color: #706f6f;
+      font-size: 14px;
+      line-height: 19px; }
+    #main .top_main .main_right .pro_price {
+      padding: 10px 0 10px 22px;
+      border-bottom: 1px dashed #dfdfdf; }
+      #main .top_main .main_right .pro_price h3 {
+        display: inline-block;
+        color: #b1b1b1;
+        font-size: 14px;
+        width: 50px;
+        text-align: right;
+        margin-right: 15px;
+        font-weight: lighter; }
+      #main .top_main .main_right .pro_price span {
+        color: #0a83d7;
+        font-size: 16px;
+        font-family: Arial; }
+    #main .top_main .main_right .pro_select {
+      padding: 14px 0 10px 22px; }
+      #main .top_main .main_right .pro_select div {
+        margin-bottom: 9px; }
+        #main .top_main .main_right .pro_select div:last-child {
+          margin-bottom: 0px; }
+      #main .top_main .main_right .pro_select p, #main .top_main .main_right .pro_select a, #main .top_main .main_right .pro_select input {
+        float: left; }
+      #main .top_main .main_right .pro_select p {
+        font-size: 14px;
+        line-height: 34px;
+        width: 50px;
+        text-align: right;
+        margin-right: 17px;
+        color: #b1b1b1; }
+      #main .top_main .main_right .pro_select a {
+        width: 107px;
+        height: 34px;
+        color: #706f6f;
+        border: 1px solid #cecece;
+        margin-right: 12px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 32px; }
+        #main .top_main .main_right .pro_select a:hover {
+          border: 1px solid #0a83d7;
+          background: url(../public/images/spec_icon.png) no-repeat;
+          background-position: 100% 100%; }
+      #main .top_main .main_right .pro_select .pro_color {
+        text-align: center; }
+        #main .top_main .main_right .pro_select .pro_color img {
+          width: 22px;
+          vertical-align: middle !important; }
+        #main .top_main .main_right .pro_select .pro_color span {
+          color: #706f6f;
+          width: 55px;
+          line-height: 32px;
+          display: inline-block; }
+      #main .top_main .main_right .pro_select .pro_num a {
+        margin-right: 0px;
+        width: 32px;
+        height: 32px;
+        color: #00549f;
+        font-size: 12px;
+        text-align: center;
+        line-height: 30px;
+        position: relative; }
+        #main .top_main .main_right .pro_select .pro_num a:nth-child(2):before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background: url(../public/images/reduce.gif) center center no-repeat #f1f4f9; }
+        #main .top_main .main_right .pro_select .pro_num a:last-child:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background: url(../public/images/add.gif) center center no-repeat #f1f4f9; }
+        #main .top_main .main_right .pro_select .pro_num a:hover {
+          border: 1px solid #cecece; }
+      #main .top_main .main_right .pro_select .pro_num input {
+        width: 40px;
+        height: 32px;
+        border: 0;
+        border-top: 1px solid #cecece;
+        border-bottom: 1px solid #cecece;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 0px;
+        outline: 0px; }

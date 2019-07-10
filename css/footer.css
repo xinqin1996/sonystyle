@@ -1,5 +1,5 @@
 .FooterMain .footer-block1 {
-  margin: 40px auto 20px;
+  margin: 40px auto 0px;
   width: 1210px;
   height: 200px; }
 
@@ -39,8 +39,9 @@
   .sony_detail p {
     padding-top: 20px;
     padding-left: 9px;
+    font-weight: normal;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 16px;
     color: #8a8d91; }
 
 .FooterMain .footer-block2 {
@@ -118,9 +119,72 @@
 
 .footer-block2 .block_top .footer_focusUs {
   margin: 0 220px 0px 125px; }
+  .footer-block2 .block_top .footer_focusUs li a {
+    display: block; }
   .footer-block2 .block_top .footer_focusUs li:first-child {
     font-size: 14px;
     line-height: 19px;
     color: #fff;
     margin-bottom: 20px;
     font-weight: lighter; }
+  .footer-block2 .block_top .footer_focusUs .ch_btn {
+    width: 175px;
+    height: 32px;
+    color: #9e9e9e;
+    background-color: #464646;
+    font-size: 14px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    text-align: center; }
+    .footer-block2 .block_top .footer_focusUs .ch_btn:hover {
+      background-color: #009ffb;
+      color: #fff; }
+  .footer-block2 .block_top .footer_focusUs .icon_point {
+    width: 90px;
+    height: 16px;
+    color: #6a6a6a;
+    margin: 30px 0 15px;
+    position: relative; }
+    .footer-block2 .block_top .footer_focusUs .icon_point:after {
+      content: '';
+      position: absolute;
+      display: block;
+      height: 17px;
+      width: 18px;
+      right: 0px;
+      top: 0px;
+      background: url(../public/images/footer-icon_07.png) no-repeat; }
+    .footer-block2 .block_top .footer_focusUs .icon_point:hover {
+      color: #fff; }
+      .footer-block2 .block_top .footer_focusUs .icon_point:hover:after {
+        content: '';
+        position: absolute;
+        display: block;
+        height: 17px;
+        width: 18px;
+        right: 0px;
+        top: 0px;
+        background: url(../public/images/footer-icon_07on.png) no-repeat; }
+  .footer-block2 .block_top .footer_focusUs li:last-child a {
+    margin: 0; }
+
+.footer-block2 .block_top .footer_ul div {
+  float: left;
+  margin-right: 62px; }
+  .footer-block2 .block_top .footer_ul div:last-child {
+    margin: 0; }
+
+.footer-block2 .block_top .footer_ul ul li {
+  margin-top: 8px; }
+
+.footer-block2 .block_top .footer_ul span {
+  color: #fff;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: lighter;
+  display: block; }
+
+.footer-block2 .block_top .footer_ul a {
+  color: #6a6a6a; }
+  .footer-block2 .block_top .footer_ul a:hover {
+    color: #009ffb; }

@@ -1,0 +1,216 @@
+/* line 1, scss/getOrderInfo.scss */
+.getOrderInfo {
+  background-color: #f5f5f5; }
+
+/* line 4, scss/getOrderInfo.scss */
+.Step {
+  background-color: #fff; }
+  /* line 6, scss/getOrderInfo.scss */
+  .Step div:first-child {
+    width: 1210px;
+    padding: 22px 0 17px;
+    margin: 0 auto; }
+  /* line 9, scss/getOrderInfo.scss */
+  .Step div:last-child {
+    height: 3px;
+    background-image: linear-gradient(to bottom, #e6e6e6 0%, #f5f5f5 100%); }
+
+/* line 15, scss/getOrderInfo.scss */
+.MainCar {
+  background-color: #f5f5f5;
+  width: 1210px;
+  margin: 0 auto;
+  margin-top: 30px; }
+
+/* line 20, scss/getOrderInfo.scss */
+.check_main {
+  border-top: 3px solid #cccccc;
+  background-color: #fff;
+  margin-bottom: 18px; }
+  /* line 22, scss/getOrderInfo.scss */
+  .check_main h1 {
+    padding: 17px 0 11px 38px;
+    color: #262626;
+    font-size: 18px;
+    text-align: left; }
+  /* line 25, scss/getOrderInfo.scss */
+  .check_main h2 {
+    width: 1133px;
+    padding: 31px 0 9px;
+    margin: 0 auto;
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0; }
+    /* line 27, scss/getOrderInfo.scss */
+    .check_main h2 a {
+      font-size: 14px;
+      float: right; }
+      /* line 29, scss/getOrderInfo.scss */
+      .check_main h2 a:last-child {
+        color: #999;
+        margin-right: 28px; }
+      /* line 32, scss/getOrderInfo.scss */
+      .check_main h2 a:first-child {
+        color: #0a83d7;
+        text-decoration: underline; }
+  /* line 37, scss/getOrderInfo.scss */
+  .check_main ul {
+    width: 1170px;
+    padding: 18px 0 0;
+    margin-left: 38.5px; }
+    /* line 39, scss/getOrderInfo.scss */
+    .check_main ul li {
+      float: left;
+      width: 360px;
+      height: 105px;
+      margin: 0 27px 10px 0;
+      border: 1px solid #cccccc;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      /* line 41, scss/getOrderInfo.scss */
+      .check_main ul li:hover {
+        border: 2px solid #1e95f1; }
+  /* line 44, scss/getOrderInfo.scss */
+  .check_main .color_line {
+    width: 1210px;
+    padding-top: 29px; }
+
+/* line 50, scss/getOrderInfo.scss */
+.check_main ul li {
+  cursor: pointer; }
+  /* line 52, scss/getOrderInfo.scss */
+  .check_main ul li .add_content {
+    width: 356px;
+    height: 101px;
+    padding: 15px 20.5px 0;
+    position: relative; }
+  /* line 56, scss/getOrderInfo.scss */
+  .check_main ul li .name {
+    font-size: 20px;
+    color: #262626; }
+  /* line 59, scss/getOrderInfo.scss */
+  .check_main ul li .phone {
+    font-size: 14px;
+    color: #909090;
+    float: right; }
+  /* line 62, scss/getOrderInfo.scss */
+  .check_main ul li .add {
+    padding: 11px 0 0;
+    font-size: 14px;
+    color: #8f8f8f; }
+  /* line 65, scss/getOrderInfo.scss */
+  .check_main ul li a {
+    position: absolute;
+    bottom: 7px;
+    right: 20px;
+    color: #1e95f1;
+    font-size: 14px;
+    display: none; }
+  /* line 68, scss/getOrderInfo.scss */
+  .check_main ul li:hover a {
+    display: block; }
+
+/* line 75, scss/getOrderInfo.scss */
+.pay_main {
+  margin-bottom: 18px;
+  padding: 35px 38.5px;
+  background-color: #fff; }
+  /* line 77, scss/getOrderInfo.scss */
+  .pay_main .pay_title {
+    padding-bottom: 12px;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #cccccc; }
+    /* line 79, scss/getOrderInfo.scss */
+    .pay_main .pay_title a {
+      font-size: 14px;
+      color: #0a83d7;
+      margin-left: 16px;
+      text-decoration: underline; }
+  /* line 83, scss/getOrderInfo.scss */
+  .pay_main .pay_method {
+    padding-top: 16px;
+    height: 36px; }
+    /* line 85, scss/getOrderInfo.scss */
+    .pay_main .pay_method a {
+      width: 160px;
+      height: 36px;
+      color: #706f6f;
+      font-size: 14px;
+      margin-right: 40px;
+      display: inline-block;
+      border: 1px solid #cecece;
+      line-height: 34px;
+      text-align: center; }
+      /* line 87, scss/getOrderInfo.scss */
+      .pay_main .pay_method a:hover {
+        color: #0a83d7;
+        border: 2px solid #0a83d7;
+        line-height: 32px; }
+
+/* line 95, scss/getOrderInfo.scss */
+.order_main {
+  background-color: #fff;
+  margin-bottom: 18px;
+  padding: 35px 35px 0;
+  font-size: 16px; }
+  /* line 97, scss/getOrderInfo.scss */
+  .order_main .order_block1 {
+    color: #333;
+    padding-bottom: 16px; }
+  /* line 100, scss/getOrderInfo.scss */
+  .order_main .order_block2 {
+    padding-bottom: 16px;
+    color: #262626;
+    width: 1140px;
+    border-bottom: 1px solid #cccccc; }
+    /* line 103, scss/getOrderInfo.scss */
+    .order_main .order_block2 div {
+      border: 1px solid red; }
+    /* line 104, scss/getOrderInfo.scss */
+    .order_main .order_block2 .d1 {
+      width: 562px; }
+
+/* line 111, scss/getOrderInfo.scss */
+.order_main .order_block3 li {
+  padding: 12px 0 30px;
+  border-bottom: 1px solid #cccccc; }
+
+/* line 116, scss/getOrderInfo.scss */
+.order_main .shop_main div {
+  float: left; }
+
+/* line 117, scss/getOrderInfo.scss */
+.order_main .shop_main .shop_name {
+  width: 562px; }
+  /* line 118, scss/getOrderInfo.scss */
+  .order_main .shop_main .shop_name img {
+    border: 1px solid #e5e5e5;
+    width: 114px; }
+  /* line 119, scss/getOrderInfo.scss */
+  .order_main .shop_main .shop_name span {
+    color: #333;
+    padding-left: 10px;
+    vertical-align: top; }
+
+/* line 121, scss/getOrderInfo.scss */
+.order_main .shop_main .shop_price {
+  width: 220px;
+  padding-top: 24px;
+  color: #706f6f; }
+
+/* line 122, scss/getOrderInfo.scss */
+.order_main .shop_main .shop_num {
+  width: 128px;
+  padding-top: 24px;
+  color: #999;
+  text-align: center; }
+
+/* line 123, scss/getOrderInfo.scss */
+.order_main .shop_main .shop_total {
+  width: 240px;
+  padding-top: 24px;
+  color: #0a83d7;
+  text-align: center; }
