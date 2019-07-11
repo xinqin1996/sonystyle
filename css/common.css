@@ -53,6 +53,9 @@
 .float-r {
   float: right; }
 
+.d-flex {
+  display: flex; }
+
 /*外边距*/
 .mx-5 {
   margin-left: 5px;
