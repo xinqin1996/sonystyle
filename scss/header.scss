@@ -1,0 +1,16 @@
+#headerNav{
+  background-color:#000;
+  .head_content{
+    width:1210px;height:65px;margin:0 auto;
+  }
+}
+
+.head_content{
+  .logo_img{
+    float:left;height:100%;
+      img{
+        width:100px;padding:25px 0 0;
+        margin:0 12px 0 25px;
+      }
+  }
+}
