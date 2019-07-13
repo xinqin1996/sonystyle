@@ -244,7 +244,7 @@
 .intro_main > div {
   display: none; }
 
-.intro_main > div.open {
+.intro_main > div.opendiv {
   display: block !important; }
 
 #support .sup_top {
