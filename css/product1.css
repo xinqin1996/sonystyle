@@ -241,6 +241,42 @@
     #main .bottom_main .bottom_right li a.blue {
       color: #0a83d7; }
 
+#main .top_main .s_img {
+  background-color: #fff !important;
+  position: relative; }
+  #main .top_main .s_img .car {
+    width: 492px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden; }
+  #main .top_main .s_img .scroll_l, #main .top_main .s_img .scroll_r {
+    width: 18.5px;
+    height: 66px;
+    position: absolute;
+    background-color: red; }
+  #main .top_main .s_img .scroll_l {
+    top: 25px;
+    left: 0px;
+    background: url(../public/images_product/product_sliders.png) no-repeat left center; }
+  #main .top_main .s_img .scroll_r {
+    top: 25px;
+    right: 0px;
+    background: url(../public/images_product/product_sliders.png) no-repeat 100% center; }
+  #main .top_main .s_img .scroll_ul {
+    width: 738px;
+    transition: 1s linear; }
+    #main .top_main .s_img .scroll_ul li {
+      float: left;
+      width: 66px;
+      height: 66px;
+      border: 1px solid #ccc;
+      margin: 0 8px; }
+      #main .top_main .s_img .scroll_ul li img {
+        width: 64px;
+        height: 64px; }
+    #main .top_main .s_img .scroll_ul li.blue {
+      border: 1px solid #009ffb; }
+
 .intro_main > div {
   display: none; }
 
@@ -429,3 +465,6 @@
       line-height: 16px; }
     #detail .beizhu_table td:nth-child(5) {
       width: 276px; }
+
+#summary img {
+  width: 100%; }

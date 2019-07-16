@@ -137,6 +137,37 @@
     }
 }
 
+#main{
+    .top_main{
+        .s_img{
+            background-color: #fff !important; position:relative;
+            .car{
+               width:492px;height:100%;margin:0 auto;
+                overflow: hidden;
+            }
+            .scroll_l,.scroll_r{width:18.5px;height:66px;position:absolute;background-color: red;
+            }
+            .scroll_l{top:25px;left:0px;
+                background:url(../public/images_product/product_sliders.png) no-repeat left center;
+                }
+            .scroll_r{top:25px;right:0px; background:url(../public/images_product/product_sliders.png) no-repeat 100% center;}
+            .scroll_ul{
+                width:738px;
+                //ÂÖ²¥Í¼scroll_ul
+                transition:0.3s linear;
+                li{
+                    float:left;width:66px;height:66px;
+                    border:1px solid #ccc;margin:0 8px;
+                    img{width:64px;height:64px;}
+                }
+                li.blue{
+                    border:1px solid #009ffb;
+                }
+            }
+        }
+    }
+}
+
 .intro_main{
     >div{  display:none;  }
     >div.opendiv{display:block !important;}
@@ -216,7 +247,7 @@
             padding:0px;
             &:first-child{width:130px;color:#999;font-size:18px;line-height:25px;}
             &:nth-child(2){width:170px;color:#333;font-size:14px;line-height:19px;padding-right:10px;vertical-align:middle;}
-            &:nth-child(3),&:nth-child(4),&:nth-child(5),{width:296px;color:#999;font-size:12px;line-height:16px;vertical-align:middle;}
+            &:nth-child(3),&:nth-child(4),&:nth-child(5){width:296px;color:#999;font-size:12px;line-height:16px;vertical-align:middle;}
             &:nth-child(5){width:276px;}
         }
     }
@@ -245,8 +276,13 @@
             padding:0px;color:#999;
             &:first-child{width:130px;font-size:18px;vertical-align:top;}
             &:nth-child(2){width:170px;}
-            &:nth-child(3),&:nth-child(4),&:nth-child(5),{width:296px;font-size:12px;line-height:16px;}
+            &:nth-child(3),&:nth-child(4),&:nth-child(5){width:296px;font-size:12px;line-height:16px;}
             &:nth-child(5){width:276px;}
         }
     }
 }
+
+#summary{
+    img{width:100%;}
+}
+

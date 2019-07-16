@@ -1,3 +1,5 @@
+li.hidden,div.hidden{display:none;}
+
 #headerNav{
   background-color:#000;
   .head_content{
@@ -182,10 +184,152 @@
     line-height: 19px;  font-weight: 500;
   }
   .shopping_main{
-    position:absolute;width:500px;height:250px;top:65px;right:0px;background-color: #ccc;
+    position:absolute;width:500px;top:64px;right:0px;
   }
   .shopping_main{
     .s_name{}
     .s_total{}
   }
 }
+
+.shopping{
+  .shopping_main{
+    display: none;
+    .s_name{
+      padding:0 5px;
+      overflow-y: scroll;
+      .name_li{padding:10px 0px;
+        &:last-child{border:none;}
+        border-bottom:1px solid #ccc;
+        img{widtg:35px;height:35px;vertical-align: middle;}
+        span{vertical-align: middle;display: inline-block}
+        .sp1{padding-left:10px;width:200px; }
+        .sp2{width:30px;}
+        .sp3{width:40px;}
+        .sp4{width:100px;color:dodgerblue}
+        a{vertical-align: middle;color:#333;}
+      }
+    }
+    .s_total{
+        padding:15px 20px;background-color:#f1f1f1;
+      span{vertical-align:sub}
+      .sp1{font-size:14px;}
+      .sp2{font-weight:bold;font-size:18px;color:deepskyblue;}
+      a{display:inline-block;height:35px;font-size:16px;
+        width:120px;color:#fff;background-color:deepskyblue;
+        margin-left:170px;border-radius: 3px;text-align:
+              center;line-height:35px;
+      }
+    }
+  }
+}
+
+.shopping:hover{
+  background: url(../public/images_header/icon_shopping_1_hover.png) 13px 17px no-repeat;
+  background-color:#fff;border-top:1px solid #ccc;border-bottom:1px solid #ccc;
+  .shopping_main{
+    display: block;
+  }
+}
+
+.login{
+  height:65px;float:right;margin-right:5px;
+  >ul>li{
+    float:right;
+  }
+  li.hidden{display: none;}
+  .li_tit{
+    font-weight: 700;
+    width: 122px;
+    height: 100%;
+    border-top: 1px solid #000;
+    background: url(../public/images_header/nav_line.jpg)
+    no-repeat 100% center;
+    padding:0 20px;
+    span{
+      display: block;
+      line-height: 64px;
+      font-size: 14px;
+      color: #fff;
+      background: url(../public/images_header/dot_down_black.jpg)
+      no-repeat 100% center;
+    }
+  }
+  .bor_none{background:none;}
+}
+
+.login{
+  .li_login{
+    height: 100%;padding:0 20px;font-size:14px;font-weight: 700;
+    color:#1fa8e2; background: url(../public/images_header/nav_line.jpg)
+  no-repeat 100% center;line-height: 65px;
+    span{
+      font-size: 14px;
+      color: #fff;
+      padding:0 10px 0 20px;
+      background: url(../public/images_header/reg_logo.png)
+      no-repeat 0 0;line-height: 65px;
+    }
+    a{
+      font-size: 14px;
+      color: #1fa8e2}
+  }
+}
+
+.login{
+  .li_tit{
+    position:relative;
+    .login_content{
+      display:none;
+      position:absolute;top:64px;left:0px;
+      padding:0 0 10px;
+      a{
+        display:block;width:122px;
+        padding:0 25px;
+      }
+      a>div{
+        border-bottom:1px solid #eee;
+        color:#6d6d6d;
+        text-align:center;
+        height:30px;
+        position:relative;
+        .d1{
+          position:absolute;
+          height:29px;
+          width:100px;text-align: center;
+          top:0px;left:-14px;line-height:29px;
+        }
+      }
+    }
+  }
+}
+
+.login{
+  .li_tit:hover{
+    background:none;
+    background-color:#fff;
+    border-top:1px solid #ccc;
+    span{
+      background: url(../public/images_header/dot_down_blue.jpg)
+    no-repeat 100% center;
+      color:#000;
+    }
+    //.login_content{
+    //  display:block;
+    //}
+  }
+}
+.login{
+  .li_tit{
+    &:hover{
+      .login_content{
+        display:block;
+      }
+    }
+    a:hover{color:#1fa8e2}
+  }
+}
+
+
+
+

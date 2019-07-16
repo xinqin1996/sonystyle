@@ -1,3 +1,6 @@
+li.hidden, div.hidden {
+  display: none; }
+
 #headerNav {
   background-color: #000; }
   #headerNav .head_content {
@@ -227,7 +230,149 @@
   .shopping .shopping_main {
     position: absolute;
     width: 500px;
-    height: 250px;
-    top: 65px;
-    right: 0px;
-    background-color: #ccc; }
+    top: 64px;
+    right: 0px; }
+
+.shopping .shopping_main {
+  display: none; }
+  .shopping .shopping_main .s_name {
+    padding: 0 5px;
+    overflow-y: scroll; }
+    .shopping .shopping_main .s_name .name_li {
+      padding: 10px 0px;
+      border-bottom: 1px solid #ccc; }
+      .shopping .shopping_main .s_name .name_li:last-child {
+        border: none; }
+      .shopping .shopping_main .s_name .name_li img {
+        widtg: 35px;
+        height: 35px;
+        vertical-align: middle; }
+      .shopping .shopping_main .s_name .name_li span {
+        vertical-align: middle;
+        display: inline-block; }
+      .shopping .shopping_main .s_name .name_li .sp1 {
+        padding-left: 10px;
+        width: 200px; }
+      .shopping .shopping_main .s_name .name_li .sp2 {
+        width: 30px; }
+      .shopping .shopping_main .s_name .name_li .sp3 {
+        width: 40px; }
+      .shopping .shopping_main .s_name .name_li .sp4 {
+        width: 100px;
+        color: dodgerblue; }
+      .shopping .shopping_main .s_name .name_li a {
+        vertical-align: middle;
+        color: #333; }
+  .shopping .shopping_main .s_total {
+    padding: 15px 20px;
+    background-color: #f1f1f1; }
+    .shopping .shopping_main .s_total span {
+      vertical-align: sub; }
+    .shopping .shopping_main .s_total .sp1 {
+      font-size: 14px; }
+    .shopping .shopping_main .s_total .sp2 {
+      font-weight: bold;
+      font-size: 18px;
+      color: deepskyblue; }
+    .shopping .shopping_main .s_total a {
+      display: inline-block;
+      height: 35px;
+      font-size: 16px;
+      width: 120px;
+      color: #fff;
+      background-color: deepskyblue;
+      margin-left: 170px;
+      border-radius: 3px;
+      text-align: center;
+      line-height: 35px; }
+
+.shopping:hover {
+  background: url(../public/images_header/icon_shopping_1_hover.png) 13px 17px no-repeat;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; }
+  .shopping:hover .shopping_main {
+    display: block; }
+
+.login {
+  height: 65px;
+  float: right;
+  margin-right: 5px; }
+  .login > ul > li {
+    float: right; }
+  .login li.hidden {
+    display: none; }
+  .login .li_tit {
+    font-weight: 700;
+    width: 122px;
+    height: 100%;
+    border-top: 1px solid #000;
+    background: url(../public/images_header/nav_line.jpg) no-repeat 100% center;
+    padding: 0 20px; }
+    .login .li_tit span {
+      display: block;
+      line-height: 64px;
+      font-size: 14px;
+      color: #fff;
+      background: url(../public/images_header/dot_down_black.jpg) no-repeat 100% center; }
+  .login .bor_none {
+    background: none; }
+
+.login .li_login {
+  height: 100%;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1fa8e2;
+  background: url(../public/images_header/nav_line.jpg) no-repeat 100% center;
+  line-height: 65px; }
+  .login .li_login span {
+    font-size: 14px;
+    color: #fff;
+    padding: 0 10px 0 20px;
+    background: url(../public/images_header/reg_logo.png) no-repeat 0 0;
+    line-height: 65px; }
+  .login .li_login a {
+    font-size: 14px;
+    color: #1fa8e2; }
+
+.login .li_tit {
+  position: relative; }
+  .login .li_tit .login_content {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0px;
+    padding: 0 0 10px; }
+    .login .li_tit .login_content a {
+      display: block;
+      width: 122px;
+      padding: 0 25px; }
+    .login .li_tit .login_content a > div {
+      border-bottom: 1px solid #eee;
+      color: #6d6d6d;
+      text-align: center;
+      height: 30px;
+      position: relative; }
+      .login .li_tit .login_content a > div .d1 {
+        position: absolute;
+        height: 29px;
+        width: 100px;
+        text-align: center;
+        top: 0px;
+        left: -14px;
+        line-height: 29px; }
+
+.login .li_tit:hover {
+  background: none;
+  background-color: #fff;
+  border-top: 1px solid #ccc; }
+  .login .li_tit:hover span {
+    background: url(../public/images_header/dot_down_blue.jpg) no-repeat 100% center;
+    color: #000; }
+
+.login .li_tit:hover .login_content {
+  display: block; }
+
+.login .li_tit a:hover {
+  color: #1fa8e2; }
