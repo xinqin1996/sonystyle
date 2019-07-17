@@ -8,10 +8,20 @@ li.hidden, div.hidden {
     height: 65px;
     margin: 0 auto; }
 
-.head_content .logo_img {
+#viceNav {
+  width: 100%;
+  position: fixed;
+  top: 200px;
+  background-color: #000; }
+  #viceNav .head_nav {
+    width: 1210px;
+    height: 65px;
+    margin: 0 auto; }
+
+.head_content .logo_img, .head_nav .logo_img {
   float: left;
   height: 100%; }
-  .head_content .logo_img img {
+  .head_content .logo_img img, .head_nav .logo_img img {
     width: 100px;
     padding: 25px 0 0;
     margin: 0 12px 0 25px; }
@@ -376,3 +386,17 @@ li.hidden, div.hidden {
 
 .login .li_tit a:hover {
   color: #1fa8e2; }
+
+#viceNav .nav_menu {
+  margin: 5px 0 0 30px;
+  float: left; }
+  #viceNav .nav_menu .nav_ul .nav_li {
+    float: left;
+    padding: 0 10px 0 20px; }
+    #viceNav .nav_menu .nav_ul .nav_li a {
+      display: block;
+      padding-right: 15px;
+      font-size: 12px;
+      height: 46px;
+      line-height: 55px;
+      color: #fff; }
