@@ -326,7 +326,41 @@
   }
 }
 
-
+#activeCar{
+  height:391px; background-color:#f1f4f9;
+  .car_main{
+    position:relative;height:100%;
+    .car_h2{
+      padding:15px 0;font-size:24px;line-height: 31px;
+    }
+    .car_control{width:23px;height:38px;position:absolute;
+      background: url(../public/images/leftright-s.png) no-repeat;
+      position:absolute;top:189px;
+    }
+    .car_left{background-position:left top;left:-38px}
+    .car_right{background-position:right top;right:-38px;}
+    .carBlock{
+      height:293.52px;
+      overflow: hidden;
+      .car_ul{
+        width:4840px;height:293.52px;
+        .car_li{
+          width:1210px;float:left;
+          img{float:left;height:293.52px;width:597px;}
+          img:first-child{margin-right:16px;}
+        }
+      }
+      .car_ul.tra{transition:1s linear;}
+    }
+    .car_icons{
+      text-align: center;margin-top:13px;
+      .car_icon{
+        width:10px;height:10px;background-color: #cdccca;margin:0 3px;display:inline-block;
+      }
+      .car_icon.blue{ background-color: #0a83d6; }
+    }
+  }
+}
 /*  */
 /*  */
 /*  */

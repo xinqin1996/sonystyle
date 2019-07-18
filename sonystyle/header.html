@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/header.css"/>
     <link rel="stylesheet" href="../css/sony_css_reset.css"/>
 </head>
-<body>
+<body style="height:2000px">
 <div id="headerNav">
     <!-- 设置内容的宽为1210px  65px-->
     <div class="head_content">
@@ -851,61 +851,67 @@
                     <li class="nav_li">
                         <a href="javascript:;">数码影像</a>
                         <ul class="li_ul">
-                            <li class="li_li"></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li class="li_li">微单™/单电数码相机</li>
+                            <li>镜头</li>
+                            <li>数码相机</li>
+                            <li>数码数码摄像机</li>
+                            <li>运动相机</li>
+                            <li>数码影像产品配件</li>
                         </ul>
                     </li>
                     <li class="nav_li">
-                        <a href="javascript:;">数码影像</a>
+                        <a href="javascript:;">便携音频</a>
                         <ul class="li_ul">
-                            <li class="li_li"></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li class="li_li">微单™/单电数码相机</li>
+                            <li>镜头</li>
+                            <li>数码相机</li>
+                            <li>数码数码摄像机</li>
+                            <li>运动相机</li>
+                            <li>数码影像产品配件</li>
                         </ul>
                     </li>
                     <li class="nav_li">
-                        <a href="javascript:;">数码影像</a>
+                        <a href="javascript:;">影像娱乐</a>
                         <ul class="li_ul">
-                            <li class="li_li"></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li class="li_li">微单™/单电数码相机</li>
+                            <li>镜头</li>
+                            <li>数码相机</li>
+                            <li>数码数码摄像机</li>
+                            <li>运动相机</li>
+                            <li>数码影像产品配件</li>
                         </ul>
                     </li>
                     <li class="nav_li">
-                        <a href="javascript:;">数码影像</a>
+                        <a href="javascript:;">潮玩科技</a>
                         <ul class="li_ul">
-                            <li class="li_li"></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li class="li_li">微单™/单电数码相机</li>
+                            <li>镜头</li>
+                            <li>数码相机</li>
+                            <li>数码数码摄像机</li>
+                            <li>运动相机</li>
+                            <li>数码影像产品配件</li>
                         </ul>
                     </li>
                     <li class="nav_li">
-                        <a href="javascript:;">数码影像</a>
+                        <a href="javascript:;">视频游戏</a>
                         <ul class="li_ul">
-                            <li class="li_li"></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li class="li_li">微单™/单电数码相机</li>
+                            <li>镜头</li>
+                            <li>数码相机</li>
+                            <li>数码数码摄像机</li>
+                            <li>运动相机</li>
+                            <li>数码影像产品配件</li>
                         </ul>
                     </li>
                     <li class="nav_li">
-                        <a href="javascript:;">数码影像</a>
+                        <a href="javascript:;">会员专区</a>
                         <ul class="li_ul">
-                            <li class="li_li"></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li class="li_li">微单™/单电数码相机</li>
+                            <li>镜头</li>
+                            <li>数码相机</li>
+                            <li>数码数码摄像机</li>
+                            <li>运动相机</li>
+                            <li>数码影像产品配件</li>
                         </ul>
                     </li>
                 </ul>
@@ -960,6 +966,16 @@
         </div>
     </div>
 
-
+<script src="../js/jquery-1.11.3.js"></script>
+<script>
+    $(window).on("scroll",function(e){
+        var scrollTop=document.documentElement.scrollTop;
+        if(scrollTop>=430){
+            $(viceNav).addClass("on");
+        }else{
+            $(viceNav).removeClass("on");
+        }
+    })
+</script>
 </body>
 </html>

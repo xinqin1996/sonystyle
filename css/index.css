@@ -301,6 +301,58 @@
   .BottomMain .BottomBlock3 .BlockUs a {
     color: #3f80b8; }
 
+#activeCar {
+  height: 391px;
+  background-color: #f1f4f9; }
+  #activeCar .car_main {
+    position: relative;
+    height: 100%; }
+    #activeCar .car_main .car_h2 {
+      padding: 15px 0;
+      font-size: 24px;
+      line-height: 31px; }
+    #activeCar .car_main .car_control {
+      width: 23px;
+      height: 38px;
+      position: absolute;
+      background: url(../public/images/leftright-s.png) no-repeat;
+      position: absolute;
+      top: 189px; }
+    #activeCar .car_main .car_left {
+      background-position: left top;
+      left: -38px; }
+    #activeCar .car_main .car_right {
+      background-position: right top;
+      right: -38px; }
+    #activeCar .car_main .carBlock {
+      height: 293.52px;
+      overflow: hidden; }
+      #activeCar .car_main .carBlock .car_ul {
+        width: 4840px;
+        height: 293.52px; }
+        #activeCar .car_main .carBlock .car_ul .car_li {
+          width: 1210px;
+          float: left; }
+          #activeCar .car_main .carBlock .car_ul .car_li img {
+            float: left;
+            height: 293.52px;
+            width: 597px; }
+          #activeCar .car_main .carBlock .car_ul .car_li img:first-child {
+            margin-right: 16px; }
+      #activeCar .car_main .carBlock .car_ul.tra {
+        transition: 1s linear; }
+    #activeCar .car_main .car_icons {
+      text-align: center;
+      margin-top: 13px; }
+      #activeCar .car_main .car_icons .car_icon {
+        width: 10px;
+        height: 10px;
+        background-color: #cdccca;
+        margin: 0 3px;
+        display: inline-block; }
+      #activeCar .car_main .car_icons .car_icon.blue {
+        background-color: #0a83d6; }
+
 /*  */
 /*  */
 /*  */

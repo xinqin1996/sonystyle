@@ -11,12 +11,16 @@ li.hidden, div.hidden {
 #viceNav {
   width: 100%;
   position: fixed;
-  top: 200px;
-  background-color: #000; }
+  top: 0;
+  background-color: #000;
+  display: none; }
   #viceNav .head_nav {
     width: 1210px;
     height: 65px;
     margin: 0 auto; }
+
+#viceNav.on {
+  display: block; }
 
 .head_content .logo_img, .head_nav .logo_img {
   float: left;
@@ -392,11 +396,27 @@ li.hidden, div.hidden {
   float: left; }
   #viceNav .nav_menu .nav_ul .nav_li {
     float: left;
-    padding: 0 10px 0 20px; }
+    padding: 0 10px 0 20px;
+    position: relative;
+    background: url(../public/images_header/nav_line.jpg) no-repeat right 21px; }
+    #viceNav .nav_menu .nav_ul .nav_li:hover .li_ul {
+      display: block; }
     #viceNav .nav_menu .nav_ul .nav_li a {
       display: block;
       padding-right: 15px;
       font-size: 12px;
       height: 46px;
       line-height: 55px;
-      color: #fff; }
+      color: #fff;
+      background: url(../public/images_header/dot_down_black.jpg) no-repeat 95% 26px; }
+  #viceNav .nav_menu .nav_ul .li_ul {
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: -4px;
+    display: none;
+    background: url(../public/images_header/dot_up_black.jpg) no-repeat 17% 5px; }
+    #viceNav .nav_menu .nav_ul .li_ul li {
+      padding: 10px;
+      width: 210px;
+      background-color: #fff; }
