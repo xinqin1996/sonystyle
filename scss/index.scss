@@ -361,6 +361,63 @@
     }
   }
 }
+
+#kvArea{
+  .kvArea_main{
+    width:100%;height:1080px;overflow: hidden;
+    .kvArea_ul.tra{
+      transition:1s linear;
+    }
+    .kvArea_ul{
+      width:400%;height:100%;
+      .kvArea_li{
+        float:left;
+        height:100%;width:25%;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+        &:first-child{background-image:url(../public/images/kv_a7rm4_xpfb0716.jpg); }
+        &:nth-child(2){background-image:url(../public/images/kv_wf_1000xm3_0703.jpg); }
+        &:nth-child(3){background-image:url(../public/images/kv_a9g.jpg); }
+        &:nth-child(4){background-image:url(../public/images/kv_a7rm4_xpfb0716.jpg); }
+      }
+    }
+    .kvArea_left{
+      background: url(../public/images/arrows_l.png) no-repeat left top;
+      position: absolute; z-index: 9;
+      left: 10px;  top:572px;  width: 38px;  height: 66px;
+    }
+    .kvArea_right{
+      background: url(../public/images/arrows_r.png) no-repeat left top;
+      position: absolute; z-index: 9;
+      right: 10px;  top: 572px;  width: 38px;  height: 66px;
+    }
+  }
+  .kvArea_tabs{
+    .tabs_ul{
+      width:1210px;height:68px;margin:0 auto;
+      .tabs_li{
+        float: left;height:61px;  width: 33%;padding-top:10px;
+        >a{
+           display: block;height:100%;  width: 100%;
+          font-size:14px;
+          font-weight: 700;
+          cursor: pointer;
+          color: #000;
+        }
+        border-bottom: 3px solid #999999;
+        margin-right:5px;
+        &:last-child{margin-right:0px;}
+      }
+      .tabs_li.blue{
+        >a{ color:#0a83d6; }
+        border-bottom: 3px solid #0a83d6;
+        background: url(../public/images/kvdown_arrow.png) no-repeat left top;
+      }
+    }
+  }
+}
+
 /*  */
 /*  */
 /*  */

@@ -2,7 +2,9 @@ li.hidden, div.hidden {
   display: none; }
 
 #headerNav {
-  background-color: #000; }
+  background-color: #000;
+  position: relative;
+  z-index: 10; }
   #headerNav .head_content {
     width: 1210px;
     height: 65px;
@@ -12,6 +14,7 @@ li.hidden, div.hidden {
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 10;
   background-color: #000;
   display: none; }
   #viceNav .head_nav {
@@ -56,12 +59,12 @@ li.hidden, div.hidden {
 .nav_list .nav_ul1 .nav_li1 {
   position: relative; }
   .nav_list .nav_ul1 .nav_li1 > ul {
-    opacity: 0;
-    top: 130%;
     display: none;
+    top: 100%;
     position: absolute;
     right: 0px;
-    background-color: #eeeeee; }
+    background-color: #eeeeee;
+    z-index: 15; }
     .nav_list .nav_ul1 .nav_li1 > ul > li {
       font-size: 14px;
       padding: 0 45px 0 30px;
@@ -101,12 +104,14 @@ li.hidden, div.hidden {
     transition: 0.5s linear;
     display: block; }
   .nav_list .nav_li1 .li1_ul li .content_d {
+    background-color: #fff;
     position: absolute;
     height: 455px;
     width: 954px;
     left: 100%;
     top: 0px;
     opacity: 0;
+    z-index: 15;
     padding: 10px;
     display: none; }
     .nav_list .nav_li1 .li1_ul li .content_d .img_d {
@@ -115,7 +120,8 @@ li.hidden, div.hidden {
       width: 217.5px;
       top: 10px;
       right: 10px;
-      background-color: #009ffb; }
+      background-color: #009ffb;
+      z-index: 15; }
       .nav_list .nav_li1 .li1_ul li .content_d .img_d img {
         width: 100%;
         height: 100%; }
@@ -124,7 +130,8 @@ li.hidden, div.hidden {
       height: 395px;
       position: absolute;
       top: 10px;
-      left: 10px; }
+      left: 10px;
+      z-index: 15; }
       .nav_list .nav_li1 .li1_ul li .content_d .txt_d .kuozhan {
         width: 176.5px;
         float: left;
@@ -147,6 +154,7 @@ li.hidden, div.hidden {
               background: url(../public/images_header/sub_arrow.png) no-repeat 100% center; }
     .nav_list .nav_li1 .li1_ul li .content_d .phone_d {
       position: absolute;
+      z-index: 15;
       height: 30px;
       width: 706.5px;
       bottom: 10px;
@@ -165,7 +173,9 @@ li.hidden, div.hidden {
   .nav_list .nav_ul1 .nav_li2:hover .main_block {
     display: block; }
   .nav_list .nav_ul1 .nav_li2 .main_block {
+    background-color: #fff;
     position: absolute;
+    z-index: 15;
     padding: 30px 0 0 0px;
     display: none;
     height: 455px;
@@ -233,6 +243,7 @@ li.hidden, div.hidden {
     width: 19px;
     color: #fff;
     position: absolute;
+    z-index: 15;
     top: 15px;
     font-size: 12px;
     left: 22px;
@@ -245,11 +256,13 @@ li.hidden, div.hidden {
     position: absolute;
     width: 500px;
     top: 64px;
-    right: 0px; }
+    right: 0px;
+    z-index: 15; }
 
 .shopping .shopping_main {
   display: none; }
   .shopping .shopping_main .s_name {
+    background-color: #fff;
     padding: 0 5px;
     overflow-y: scroll; }
     .shopping .shopping_main .s_name .name_li {
@@ -353,10 +366,12 @@ li.hidden, div.hidden {
 .login .li_tit {
   position: relative; }
   .login .li_tit .login_content {
+    background-color: #fff;
     display: none;
     position: absolute;
     top: 64px;
     left: 0px;
+    z-index: 15;
     padding: 0 0 10px; }
     .login .li_tit .login_content a {
       display: block;
@@ -370,6 +385,7 @@ li.hidden, div.hidden {
       position: relative; }
       .login .li_tit .login_content a > div .d1 {
         position: absolute;
+        z-index: 15;
         height: 29px;
         width: 100px;
         text-align: center;
@@ -410,11 +426,13 @@ li.hidden, div.hidden {
       color: #fff;
       background: url(../public/images_header/dot_down_black.jpg) no-repeat 95% 26px; }
   #viceNav .nav_menu .nav_ul .li_ul {
+    background-color: #fff;
     padding: 10px;
     position: absolute;
     top: 50px;
     left: -4px;
     display: none;
+    z-index: 15;
     background: url(../public/images_header/dot_up_black.jpg) no-repeat 17% 5px; }
     #viceNav .nav_menu .nav_ul .li_ul li {
       padding: 10px;

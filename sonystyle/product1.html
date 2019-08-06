@@ -774,6 +774,9 @@
             var licount=9;
             var i=0;
             //n主体函数，通过n值得传入，影响i值，i值控制图片位置
+//           通多n=0 时 加 no
+//            n=licount 时 no
+//            当n=-1变为0 ，n=licount 变为licount-1 达到控制效果
             function moveTo(n){
                 //margin值的变化
                 if(n==-1){
